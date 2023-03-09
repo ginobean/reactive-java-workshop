@@ -1,7 +1,7 @@
 package io.javabrains.reactiveworkshop;
 
 import static io.javabrains.reactiveworkshop.StreamSources.intNumbersStream;
-import static io.javabrains.reactiveworkshop.StreamSources.userStream;
+import static io.javabrains.reactiveworkshop.StreamSources.*;
 
 import java.util.Arrays;
 import java.util.HashSet;
