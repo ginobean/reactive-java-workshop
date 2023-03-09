@@ -1,0 +1,13 @@
+export CLASSPATH=/nfs/netdrive/remote/reactive-java-workshop/src/main/java/
+
+To run:
+
+cd $CLASSPATH
+cd io/javabrains/reactiveworkshop
+java Exercise1.java
+---
+Alternatively, if you don't want to set CLASSPATH as an evironment variable:
+
+cd /nfs/netdrive/remote/reactive-java-workshop/src/main/java/io/javabrains/reactiveworkshop
+
+java -cp ../../.. Exercise1.java
