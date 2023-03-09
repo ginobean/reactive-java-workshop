@@ -1,13 +1,9 @@
-export CLASSPATH=/nfs/netdrive/remote/reactive-java-workshop/src/main/java/
+Go to the top level directory, which contains the maven pom.xml file, 
+and use my run-maven-class.sh to run an arbitrary exercise..
 
-To run:
+e.g.
 
-cd $CLASSPATH
-cd io/javabrains/reactiveworkshop
-java Exercise1.java
----
-Alternatively, if you don't want to set CLASSPATH as an evironment variable:
+cd /nfs/netdrive/remote/reactive-java-workshop
+./run-maven-class.sh io.javabrains.reactiveworkshop.Exercise1
 
-cd /nfs/netdrive/remote/reactive-java-workshop/src/main/java/io/javabrains/reactiveworkshop
 
-java -cp ../../.. Exercise1.java
