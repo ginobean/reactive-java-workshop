@@ -1,7 +1,5 @@
 package io.javabrains.reactiveworkshop;
 
-import io.javabrains.reactiveworkshop.ReactiveSources;
-
 import java.io.IOException;
 
 public class Exercise2 {
